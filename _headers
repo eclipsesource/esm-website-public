@@ -1,0 +1,11 @@
+# This should disable crawling on the preview pages
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+  Content-Security-Policy: base-uri 'self' *.esm-website.pages.dev; default-src 'self' 'unsafe-inline' *.esm-website.pages.dev https://unpkg.com https://*.iubenda.com https://cdnjs.cloudflare.com https://www.googletagmanager.com https://*.google-analytics.com https://storage.googleapis.com https://gist.github.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.iubenda.com https://github.githubassets.com; img-src 'self' *.esm-website.pages.dev data: https://www.googletagmanager.com; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src https://maximiliankgel.typeform.com https://*.youtube.com https://*.youtube-nocookie.com

@@ -1,0 +1,25 @@
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Planet Eclipse Archives - EclipseSource</title>
+        <link>https://www.eclipsesource.com/de/services/</link>
+        <description>Technology creators at your service</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de-DE</language>
+        <lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
+        
+            <atom:link href="https://www.eclipsesource.com/de/services/index.xml" rel="self" type="application/rss+xml" />
+        
+        <image>
+            <url>https://www.eclipsesource.com/images/favicon_hu22e0ef0eb55019ef49351005152a27bc_670_16x0_resize_box_3.png</url>
+            <title>Planet Eclipse Archives - EclipseSource</title>
+            <link>https://www.eclipsesource.com/de/services/</link>
+        </image>
+
+        
+        
+        
+
+        
+    </channel>
+</rss>
